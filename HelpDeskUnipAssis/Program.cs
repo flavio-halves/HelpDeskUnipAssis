@@ -1,15 +1,18 @@
-var builder = WebApplication.CreateBuilder(args);
+using HelpDeskUnipAssis.Data;
+using Microsoft.EntityFrameworkCore;
 
-// Add services to the container.
+var builder  = WebApplication.CreateBuilder(args);
+
 builder.Services.AddRazorPages();
 
-var app = builder.Build();
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+options.UseSqlServer
+(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
-{
+var app = builder.Build(); ;
+
+if (!app.Environment.IsDevelopment()){
     app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
@@ -17,9 +20,14 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
 app.UseAuthorization();
 
 app.MapRazorPages();
+
+app.MapGet("/", context =>
+{
+    context.Response.Redirect("/Login");
+    return Task.CompletedTask;
+});
 
 app.Run();
