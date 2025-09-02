@@ -1,0 +1,23 @@
+﻿@page
+@model HelpDeskUnipAssis.Pages.Tickets.CreateModel
+@{
+    ViewData["Title"] = "Abrir Ticket";
+}
+
+<h2>Abrir novo Ticket</h2>
+
+<form method="post">
+    <div>
+        <label>Título</label>
+        <input asp-for="Ticket.Titulo" />
+    </div>
+    <div>
+        <label>Descrição</label>
+        <textarea asp-for="Ticket.Descricao"></textarea>
+    </div>
+    <div>
+        <label>ID Usuário</label>
+        <input asp-for="Ticket.UsuarioId" />
+    </div>
+    <button type="submit">Salvar</button>
+</form>

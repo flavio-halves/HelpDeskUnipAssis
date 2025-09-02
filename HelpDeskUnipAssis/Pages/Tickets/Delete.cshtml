@@ -1,0 +1,14 @@
+﻿@page "{id:int}"
+@model HelpDeskUnipAssis.Pages.Tickets.DeleteModel
+
+<h2>Excluir Ticket</h2>
+
+<p>Tem certeza que deseja excluir este ticket?</p>
+
+<p><b>Título:</b> @Model.Ticket.Titulo</p>
+<p><b>Descrição:</b> @Model.Ticket.Descricao</p>
+
+<form method="post">
+    <button type="submit">Confirmar Exclusão</button>
+    <a asp-page="Index">Cancelar</a>
+</form>

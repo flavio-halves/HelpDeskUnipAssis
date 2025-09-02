@@ -1,0 +1,11 @@
+﻿@page "{id:int}"
+@model HelpDeskUnipAssis.Pages.Tickets.DetailsModel
+
+<h2>Detalhes do Ticket</h2>
+
+<p><b>Título:</b> @Model.Ticket.Titulo</p>
+<p><b>Descrição:</b> @Model.Ticket.Descricao</p>
+<p><b>Data Abertura:</b> @Model.Ticket.DataAbertura</p>
+<p><b>Usuário:</b> @Model.Ticket.Usuario?.Nome</p>
+
+<a asp-page="Index">Voltar</a>

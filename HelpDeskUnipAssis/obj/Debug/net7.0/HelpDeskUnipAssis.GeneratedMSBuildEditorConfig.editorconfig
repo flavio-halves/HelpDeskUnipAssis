@@ -32,6 +32,46 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/ReposUnip2024/Unip2024/Unip2024Sem2/UnipAula/HelpDeskUnipAssis/HelpDeskUnipAssis/Pages/Tickets/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGlja2V0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ReposUnip2024/Unip2024/Unip2024Sem2/UnipAula/HelpDeskUnipAssis/HelpDeskUnipAssis/Pages/Tickets/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGlja2V0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ReposUnip2024/Unip2024/Unip2024Sem2/UnipAula/HelpDeskUnipAssis/HelpDeskUnipAssis/Pages/Tickets/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGlja2V0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ReposUnip2024/Unip2024/Unip2024Sem2/UnipAula/HelpDeskUnipAssis/HelpDeskUnipAssis/Pages/Tickets/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGlja2V0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ReposUnip2024/Unip2024/Unip2024Sem2/UnipAula/HelpDeskUnipAssis/HelpDeskUnipAssis/Pages/Tickets/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGlja2V0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ReposUnip2024/Unip2024/Unip2024Sem2/UnipAula/HelpDeskUnipAssis/HelpDeskUnipAssis/Pages/Usuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ReposUnip2024/Unip2024/Unip2024Sem2/UnipAula/HelpDeskUnipAssis/HelpDeskUnipAssis/Pages/Usuarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ReposUnip2024/Unip2024/Unip2024Sem2/UnipAula/HelpDeskUnipAssis/HelpDeskUnipAssis/Pages/Usuarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ReposUnip2024/Unip2024/Unip2024Sem2/UnipAula/HelpDeskUnipAssis/HelpDeskUnipAssis/Pages/Usuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ReposUnip2024/Unip2024/Unip2024Sem2/UnipAula/HelpDeskUnipAssis/HelpDeskUnipAssis/Pages/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/ReposUnip2024/Unip2024/Unip2024Sem2/UnipAula/HelpDeskUnipAssis/HelpDeskUnipAssis/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

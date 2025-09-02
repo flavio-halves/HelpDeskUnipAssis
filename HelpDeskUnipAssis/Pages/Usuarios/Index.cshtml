@@ -1,0 +1,28 @@
+﻿@page
+@model HelpDeskUnipAssis.Pages.Usuarios.IndexModel
+
+<h2>Lista de Usuários</h2>
+
+<p>
+    <a asp-page="Create">Cadastrar novo Usuário</a>
+</p>
+
+<table border="1">
+    <tr>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Ações</th>
+    </tr>
+    @foreach (var usuario in Model.ListaUsuarios)
+    {
+        <tr>
+            <td>@usuario.Nome</td>
+            <td>@usuario.Email</td>
+            <td>
+                <a asp-page="Edit" asp-route-id="@usuario.Id">Editar</a> |
+                <a asp-page="Details" asp-route-id="@usuario.Id">Detalhes</a> |
+                <a asp-page="Delete" asp-route-id="@usuario.Id">Excluir</a>
+            </td>
+        </tr>
+    }
+</table>

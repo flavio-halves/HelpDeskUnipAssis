@@ -1,0 +1,14 @@
+﻿@page "{id:int}"
+@model HelpDeskUnipAssis.Pages.Usuarios.DeleteModel
+
+<h2>Excluir Usuário</h2>
+
+<p>Tem certeza que deseja excluir este usuário?</p>
+
+<p><b>Nome:</b> @Model.Usuario.Nome</p>
+<p><b>Email:</b> @Model.Usuario.Email</p>
+
+<form method="post">
+    <button type="submit">Confirmar Exclusão</button>
+    <a asp-page="Index">Cancelar</a>
+</form>

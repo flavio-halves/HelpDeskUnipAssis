@@ -1,0 +1,21 @@
+﻿@page "{id:int}"
+@model HelpDeskUnipAssis.Pages.Tickets.EditModel
+
+<h2>Editar Ticket</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Ticket.Id" />
+    <div>
+        <label>Título</label>
+        <input asp-for="Ticket.Titulo" />
+    </div>
+    <div>
+        <label>Descrição</label>
+        <textarea asp-for="Ticket.Descricao"></textarea>
+    </div>
+    <div>
+        <label>ID Usuário</label>
+        <input asp-for="Ticket.UsuarioId" />
+    </div>
+    <button type="submit">Salvar</button>
+</form>

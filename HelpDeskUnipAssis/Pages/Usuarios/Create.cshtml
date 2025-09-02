@@ -1,0 +1,27 @@
+﻿@page
+@model HelpDeskUnipAssis.Pages.Usuarios.CreateModel
+
+<h2>Cadastrar Usuário</h2>
+
+<form method="post">
+    <div>
+        <label>Nome</label>
+        <input asp-for="Usuario.Nome" />
+    </div>
+    <div>
+        <label>Email</label>
+        <input asp-for="Usuario.Email" type="email" />
+    </div>
+    <div>
+        <label>Senha</label>
+        <input asp-for="Usuario.Senha" type="password" />
+    </div>
+    <button type="submit">Cadastrar</button>
+</form>
+
+<hr />
+
+<p>
+    Já tem conta?
+    <a asp-page="/Login">Voltar para Login</a>
+</p>

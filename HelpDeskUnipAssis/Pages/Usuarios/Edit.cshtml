@@ -1,0 +1,21 @@
+﻿@page "{id:int}"
+@model HelpDeskUnipAssis.Pages.Usuarios.EditModel
+
+<h2>Editar Usuário</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Usuario.Id" />
+    <div>
+        <label>Nome</label>
+        <input asp-for="Usuario.Nome" />
+    </div>
+    <div>
+        <label>Email</label>
+        <input asp-for="Usuario.Email" type="email" />
+    </div>
+    <div>
+        <label>Senha</label>
+        <input asp-for="Usuario.Senha" type="password" />
+    </div>
+    <button type="submit">Salvar</button>
+</form>
